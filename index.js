@@ -1,20 +1,20 @@
 //1
-function greatestOfTwo(){
-  
+ let greatestOfTwo  = (int1, int2) => {
+  console.log ((int1 > int2) ? int1 : int2);
 }
 
 //2
-function greatestOfThree(){
-  
+let greatestOfThree = (int1, int2, int3) => {
+ console.log((int1 < int2 && int3 < int2) ? int2 : ((int1 < int3 && int2 < int3) ? int3 : int1));
 }
 
 //3
-function greatestOfFour(){
-  
+let greatestOfFour = (int1, int2, int3, int4) =>{
+  console.log((int1 < int2 && int3 < int2 && int4 <int2) ? int2 : ((int1 < int3 && int2 < int3 && int4 < int3) ? int3 : (int1 < int4 && int2 < int4 && int3 < int4) ? int4 : int1));
 }
 
 
 //4
-function leastOfFour(){
-  
+let leastOfFour = (int1, int2, int3, int4) =>{
+  console.log((int1 > int2 && int3 > int2 && int4 > int2) ? int2 : ((int1 > int3 && int2 > int3 && int4 > int3) ? int3 : (int1 > int4 && int2 > int4 && int3 > int4) ? int4 : int1));
 }
